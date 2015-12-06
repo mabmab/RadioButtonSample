@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RadioButtonSample"
         mc:Ignorable="d"
-        Title="ラジオボタンのBindingのサンプル" Height="180" Width="280">
+        Title="ラジオボタンのBindingのサンプル" Height="180" Width="360">
 
     <!-- ウインドウのデータコンテキスト（ビューモデル） -->
     <Window.DataContext>
@@ -22,32 +22,57 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
+            <Menu
+                Grid.Row="0" Grid.ColumnSpan="3"
+                VerticalAlignment="Top" HorizontalAlignment="Left" Height="100">
+                <MenuItem Header="ペット">
+                    <MenuItem
+                        Header="犬" IsCheckable="True"
+                        IsChecked="{Binding Pet, Converter={StaticResource PetEnumToBool}, ConverterParameter=Dog}"
+                        />
+                    <MenuItem
+                        Header="猫" IsCheckable="True"
+                IsChecked="{Binding Pet, Converter={StaticResource PetEnumToBool}, ConverterParameter=Cat}"
+                        />
+                    <MenuItem
+                        Header="ハムスター" IsCheckable="True"
+                IsChecked="{Binding Pet, Converter={StaticResource PetEnumToBool}, ConverterParameter=Hamster}"
+                        />
+                </MenuItem>
+            </Menu>
             <RadioButton
-                Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"
                 Content ="犬"
                 IsChecked="{Binding Pet, Converter={StaticResource PetEnumToBool}, ConverterParameter=Dog}"
                 >
             </RadioButton>
             <RadioButton
-                Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
                 Content="猫"
                 IsChecked="{Binding Pet, Converter={StaticResource PetEnumToBool}, ConverterParameter=Cat}"
                 >
             </RadioButton>
             <RadioButton
-                Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"
                 Content="ハムスター"
                 IsChecked="{Binding Pet, Converter={StaticResource PetEnumToBool}, ConverterParameter=Hamster}"
                 >
             </RadioButton>
-            <ComboBox Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="200"/>
+            <ComboBox
+                Grid.Row="2" Grid.ColumnSpan="3"
+                HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="200">
+                <ComboBoxItem Content="犬"/>
+                <ComboBoxItem Content="猫"/>
+                <ComboBoxItem Content="ハムスター"/>
+            </ComboBox>
         </Grid>
     </Grid>
 </Window>

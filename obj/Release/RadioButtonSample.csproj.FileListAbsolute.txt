@@ -12,4 +12,3 @@ c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioBut
 c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.csproj.GenerateResource.Cache
 c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.exe
 c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.pdb
-c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.csprojResolveAssemblyReference.cache
