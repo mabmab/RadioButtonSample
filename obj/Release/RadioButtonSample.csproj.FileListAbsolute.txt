@@ -1,0 +1,15 @@
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\MainWindow.g.cs
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\App.g.cs
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\GeneratedInternalTypeHelper.g.cs
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample_MarkupCompile.cache
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample_MarkupCompile.lref
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\bin\Release\RadioButtonSample.exe.config
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\bin\Release\RadioButtonSample.exe
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\bin\Release\RadioButtonSample.pdb
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\MainWindow.baml
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.g.resources
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.Properties.Resources.resources
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.csproj.GenerateResource.Cache
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.exe
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.pdb
+c:\users\manabu\documents\visual studio 2015\Projects\RadioButtonSample\RadioButtonSample\obj\Release\RadioButtonSample.csprojResolveAssemblyReference.cache
