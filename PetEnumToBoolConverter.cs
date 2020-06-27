@@ -6,9 +6,7 @@ using System.Windows.Data;
 namespace RadioButtonSample
 {
     //*********************************************************************************
-    /// <summary>
-    /// ペット列挙体コンバータークラス
-    /// </summary>
+    /// <summary>ペット列挙体コンバータークラス</summary>
     /// <Note>
     /// Bindingで使用するコンバーターです。
     /// コンバーターパラメーターを指定する必要があります。
@@ -19,14 +17,12 @@ namespace RadioButtonSample
     //*********************************************************************************
     public class PetEnumToBoolConverter : IValueConverter
     {
-        /// <summary>
-        /// EnumからBoolへの変換
-        /// </summary>
+        /// <summary>EnumとBoolへの変換</summary>
         /// <param name="value">BindingソースのEnum型オブジェクト</param>
         /// <param name="targetType">Bindingターゲットの型</param>
         /// <param name="parameter">パラメーター（Enum要素の文字列）</param>
         /// <param name="culture">カルチャー</param>
-        /// <returns></returns>
+        /// <returns>Bool値</returns>
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             // バインドする列挙値の文字列表記がパラメータに渡されているか
@@ -46,14 +42,12 @@ namespace RadioButtonSample
             return (value.Equals(Enum.Parse(value.GetType(), strEnum)));
         }
 
-        /// <summary>
-        /// BoolからEnumへの変換
-        /// </summary>
+        /// <summary>BoolからEnumへの変換</summary>
         /// <param name="value">BindingターゲットのBool型オブジェクト</param>
         /// <param name="targetType">Bindingソースの型</param>
         /// <param name="parameter">パラメーター（Enum要素の文字列）</param>
         /// <param name="culture">カルチャー</param>
-        /// <returns></returns>
+        /// <returns>Enum値</returns>
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             // バインドする列挙値の文字列表記がパラメータに渡されているか
